@@ -29,7 +29,7 @@ export default {
     },
 
     mounted() {
-        document.title = "Pokemón API - Vue 3";
+        document.title = "Pokémon API - Vue 3";
     },
 
     data() {
@@ -47,6 +47,7 @@ export default {
 
         async fetchPokemonData() {
             this.loading = true;
+            this.pokemonData = null;
             try {
                 const randomNumber = this.generateRandomNumber();
                 const response = await axios.get(`https://us-central1-pokemon-api-vue-3.cloudfunctions.net/getPokemonData?pokemon=${randomNumber}`);
