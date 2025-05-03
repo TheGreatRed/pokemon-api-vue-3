@@ -1,5 +1,5 @@
 
-# Pokémon Viewer App
+# Pokémon API - Vue 3
 
 ## Descripción
 
