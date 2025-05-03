@@ -25,7 +25,7 @@ Esta es una aplicación web desarrollada con **Vue 3** y **Bootstrap** que permi
 1. **Clona el repositorio:**
 
    ```bash
-   git clone [https://github.com/tu-usuario/pokemon-api-app.git](https://github.com/TheGreatRed/pokemon-api-vue-3.git)
+   git clone https://github.com/TheGreatRed/pokemon-api-vue-3.git
    cd pokemon-api-vue-3
    ```
 
