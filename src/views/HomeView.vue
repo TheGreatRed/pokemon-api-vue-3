@@ -48,6 +48,7 @@ export default {
         async fetchPokemonData() {
             this.loading = true;
             this.pokemonData = null;
+            this.error = null;
             try {
                 const randomNumber = this.generateRandomNumber();
                 const response = await axios.get(`https://us-central1-pokemon-api-vue-3.cloudfunctions.net/getPokemonData?pokemon=${randomNumber}`);

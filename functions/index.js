@@ -1,5 +1,8 @@
 const { onRequest } = require("firebase-functions/v2/https");
 const axios = require('axios');
+const cors = require("cors");
+
+cors({ origin: true });
 
 exports.getPokemonData = onRequest(async (req, res) => {
   try {
